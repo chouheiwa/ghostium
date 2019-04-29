@@ -64,7 +64,7 @@
       GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
     <!-- build:js /assets/js/head-scripts.min.js -->
     <script src="/assets/_components/jquery/jquery.js"></script>
     <script src="/assets/_components/modernizr/modernizr.js"></script>
@@ -120,11 +120,9 @@
     <script src="/assets/js/drawer.js"></script>
     <script src="/assets/js/imageLoader.js"></script>
     <script src="/assets/js/scripts.js"></script>
-    <script src="/assets/js/highlight.pack.js"></script>
     <!-- endbuild -->
 
     <script type="text/javascript">
-
       if(GHOSTIUM.haveGA) {
         (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
         function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
