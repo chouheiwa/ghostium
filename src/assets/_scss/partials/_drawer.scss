@@ -106,7 +106,7 @@
     margin: 0 20px 10px;
     opacity: .7;
   }
-
+  
   a {
     position: relative;
     display: block;
@@ -136,6 +136,14 @@
 
       &:before {
         width: 4px;
+      }
+    }
+    svg {
+      width: 1.2857142857142858em;
+      color: $primary-color;
+
+      &:hover {
+        color: $drawer-hover-color;
       }
     }
 
